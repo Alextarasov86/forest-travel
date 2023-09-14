@@ -1,0 +1,111 @@
+.header {
+    padding-top: 50px;
+    
+    position: relative;
+    height: 800px;
+    background-color: #265847;
+    background-image: url(./../img/header/Rectangle1.jpg);
+    
+    background-position: center;
+    background-size: cover;
+
+    color: #ffffff
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #265847;
+    background-image: url(./../img/header/header-inner.jpg);
+
+    background-position: center;
+    background-size: cover;
+
+    color: #ffffff
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    
+    width: 1170px;
+}
+
+.header-nav {
+    font-size: 22px;
+}
+
+.header-nav-button {
+	display: none;
+}
+
+.header-nav-list {
+    display: flex;
+    
+}
+
+.header-nav-list-item {
+    margin-right: 50px;
+}
+
+.header-nav-list-item:last-child {
+    margin-right: 0;
+}
+
+.header-nav-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-content {
+    width: 1170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.header-title {
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.header-content p {
+    font-size: 24px;
+}
+
+.header-scroll {
+    display: inline-block;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 34px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-scroll::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    
+    background-image: url(./../img/header/arrow-down.svg);
+}
+
+.inner-page-tours-header {
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
